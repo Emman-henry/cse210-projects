@@ -2,7 +2,7 @@ using System;
 
 class Program
 {
-    static void Main(string[] args)
+    static void Main(string[] args)      
     {
         Address address1 = new Address("123 Main St", "New York", "NY", "USA");
         Customer customer1 = new Customer("John Doe", address1);
