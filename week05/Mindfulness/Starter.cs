@@ -38,14 +38,6 @@ namespace ConsoleApp1
             set { _closingText = value; }
         }
 
-        // Constructor to initialize the private fields
-        public Starter(string intro, string description, string timerPrompt, string checkingText)
-        {
-            this._intro = intro;
-            this._description = description;
-            this._timerPrompt = timerPrompt;
-            this._checkingText = checkingText;  
-        }
 
         // New constructor to include the closing message
         public Starter(string intro, string description, string timerPrompt, string checkingText, string closingText)
