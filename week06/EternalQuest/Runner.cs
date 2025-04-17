@@ -2,9 +2,9 @@ namespace ConsoleApp1
 {
     public abstract class Runner
     {
-        public string Gname { get; set; }
-        public string Descrip { get; set; }
-        public string Point { get; set; }
+        protected string _Gname { get; set; }
+        protected string _Descrip { get; set; }
+        protected string _Point { get; set; }
 
         public Runner(string gname, string descrip, string point)
         {
