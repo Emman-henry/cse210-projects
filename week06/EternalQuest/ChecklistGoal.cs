@@ -16,7 +16,7 @@ namespace ConsoleApp1
             if (CompletionCount < TimesToComplete)
             {
                 CompletionCount++;
-                return int.Parse(Point);
+                return int.Parse(_point);
             }
             else
             {
@@ -28,7 +28,7 @@ namespace ConsoleApp1
         public override string ToString()
         {
             string check = CompletionCount >= TimesToComplete ? "X" : " ";
-            return $"[{check}] {Gname}, {Descrip}, {Point} ({CompletionCount}/{TimesToComplete})";
+            return $"[{check}] {_gname}, {_descrip}, {_point} ({CompletionCount}/{TimesToComplete})";
         }
     }
 }

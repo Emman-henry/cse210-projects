@@ -14,7 +14,7 @@ namespace ConsoleApp1
             if (!_completed)
             {
                 _completed = true;
-                return int.Parse(Point);
+                return int.Parse(_point);
             }
             else
             {
@@ -26,7 +26,7 @@ namespace ConsoleApp1
         public override string ToString()
         {
             string check = _completed ? "X" : " ";
-            return $"[{check}] {Gname}, {Descrip}, {Point}";
+            return $"[{check}] {_gname}, {_descrip}, {_point}";
         }
     }
 }

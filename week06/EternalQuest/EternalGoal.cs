@@ -9,12 +9,12 @@ namespace ConsoleApp1
 
         public override int RecordProgress()
         {
-            return int.Parse(Point);
+            return int.Parse(_point);
         }
 
         public override string ToString()
         {
-            return $"[∞] {Gname}, {Descrip}, {Point}";
+            return $"[∞] {_gname}, {_descrip}, {_point}";
         }
     }
 }
